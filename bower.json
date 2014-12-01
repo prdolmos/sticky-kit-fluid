@@ -1,11 +1,11 @@
 {
-  "name": "sticky-kit",
+  "name": "sticky-kit-fluid",
   "version": "1.1.1",
   "homepage": "http://leafo.net/sticky-kit/",
   "authors": [
     "leaf corcoran <leafot@gmail.com>"
   ],
-  "description": "A jQuery plugin for making smart sticky elements",
+  "description": "A jQuery plugin for making smart sticky elements. Tweaked to work with Bootstrap",
   "main": "jquery.sticky-kit.js",
   "keywords": [
     "sticky"

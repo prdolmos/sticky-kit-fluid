@@ -81,7 +81,7 @@
         el_float = elm.css("float");
         if (spacer) {
           spacer.css({
-            width: elm.outerWidth(true),
+            width: Math.floor(elm.outerWidth(true)),
             height: height,
             display: elm.css("display"),
             "vertical-align": elm.css("vertical-align"),
@@ -166,7 +166,7 @@
               position: "fixed",
               top: offset
             };
-            css.width = elm.css("box-sizing") === "border-box" ? elm.outerWidth() + "px" : elm.width() + "px";
+            css.width = elm.css("box-sizing") === "border-box" ? Math.floor(elm.outerWidth()) + "px" : Math.floor(elm.width()) + "px";
             elm.css(css).addClass(sticky_class);
             if (manual_spacer == null) {
               elm.after(spacer);
